@@ -1,0 +1,12 @@
+1️⃣ HTML TAG
+A tag tells the browser what to do with content.
+Example: <p>, <table>, <img>
+
+2️⃣ HTML ELEMENT
+Everything from opening tag to closing tag.
+Example: <p>Hello</p>
+
+3️⃣ HTML ATTRIBUTE
+Extra information written inside the opening tag.
+Example: src, alt, border, href
+
