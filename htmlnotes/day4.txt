@@ -9,6 +9,19 @@ Footer
 These sections are created using semantic HTML tags. -->
 
 
+
+📌 Notes
+✔ Applied to a single element
+❌ Not reusable
+❌ Not used in large projects
+
+Internal CSS
+📘 Definition
+Internal CSS is written inside the <style> tag
+within the <head> section.
+
+
+
 Semantic vs Non-Semantic Tags
 📘 Definitions
 Semantic Tags:
