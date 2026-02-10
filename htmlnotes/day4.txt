@@ -1,0 +1,26 @@
+<!-- Website Structure Using Semantic Tags
+📌 Concept
+A basic website is divided into three main sections:
+Navbar
+Main / Hero Section
+Footer
+
+
+These sections are created using semantic HTML tags. -->
+
+
+Semantic vs Non-Semantic Tags
+📘 Definitions
+Semantic Tags:
+Tags that have their own meaning.
+They clearly describe their purpose.
+
+Examples:
+nav, main, footer, header, section, article
+
+Non-Semantic Tags:
+Tags that do not describe their purpose.
+
+Examples:
+div, span, p, custom tags
+

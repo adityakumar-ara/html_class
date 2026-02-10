@@ -1,0 +1,220 @@
+<!-- Website Structure Using Semantic Tags
+📌 Concept
+A basic website is divided into three main sections:
+Navbar
+Main / Hero Section
+Footer
+
+
+These sections are created using semantic HTML tags. -->
+
+✅ Code: Website Structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+</head>
+<body>
+
+    <nav>
+        <!-- Navigation bar -->
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Main / Hero section -->
+        <h1>This is main section</h1>
+        <h1>This is hero section</h1>
+    </main>
+
+    <footer>
+        <!-- Footer section -->
+        <ul>
+            <li>Our Mission</li>
+            <li>Our Vision</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </footer>
+
+    <ujwal>
+        this is ujwal
+    </ujwal>
+    <!-- Custom tag (non-semantic) -->
+
+</body>
+</html>
+
+
+
+
+Semantic vs Non-Semantic Tags
+📘 Definitions
+Semantic Tags:
+Tags that have their own meaning.
+They clearly describe their purpose.
+
+Examples:
+nav, main, footer, header, section, article
+
+Non-Semantic Tags:
+Tags that do not describe their purpose.
+
+Examples:
+div, span, p, custom tags
+
+
+
+
+
+
+
+-> Block vs Inline Elements
+📘 Definitions
+Block Elements:
+Start on a new line
+Take full width of the page
+
+Examples:
+h1-h6, p, div, nav, footer
+
+Inline Elements:
+Do not start on a new line
+Take only required width
+
+Examples:
+span, a, img, input
+
+✅ Code Example
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline</title>
+</head>
+<body>
+
+    <h1 style="background-color: green;">
+        This is a block element
+    </h1>
+
+    <p>This is simple text</p>
+
+    <span style="background-color: aquamarine;">
+        This is inline element
+    </span>
+
+    <span>This is second inline element</span>
+
+    <a href="https://www.flipkart.com">Flipkart</a>
+    <a href="https://www.flipkart.com">Another link</a>
+
+    <img src="./images/favicon.png" alt="icon">
+
+</body>
+</html>
+
+
+
+-> What is CSS?
+📘 Definition
+CSS (Cascading Style Sheets) is used to style
+and design HTML elements.
+It controls color, layout, fonts, and spacing.
+
+
+-> Types of CSS
+There are three ways to apply CSS:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+
+Inline CSS
+📘 Definition
+Inline CSS is written directly inside the HTML tag
+using the style attribute.
+
+✅ Code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline CSS</title>
+</head>
+<body>
+
+    <h1 style="color: olive;">
+        This is Inline CSS
+    </h1>
+
+</body>
+</html>
+
+
+
+
+📌 Notes
+✔ Applied to a single element
+❌ Not reusable
+❌ Not used in large projects
+
+Internal CSS
+📘 Definition
+Internal CSS is written inside the <style> tag
+within the <head> section.
+
+✅ Code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal CSS</title>
+
+    <style>
+        h1 {
+            color: gray;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Internal CSS</h1>
+</body>
+</html>
+
+
+
+🔹 STEP 8: External CSS
+📘 Definition
+External CSS is written in a separate .css file
+and linked with HTML using the <link> tag.
+
+📄 external.css
+h1 {
+    color: gray;
+    background-color: whitesmoke;
+}
+
+
+📄 file.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External CSS</title>
+    <link rel="stylesheet" href="./external.css">
+</head>
+
+<body>
+    <h1>This is External CSS</h1>
+</body>
+</html>
+
+
+
+
+Both File external.css and file.html Are Linked with the help of  <link> Tag
+<link rel="stylesheet" href="./external.css">
