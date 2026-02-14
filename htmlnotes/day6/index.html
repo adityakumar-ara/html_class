@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Example</title>
+
+  <style>
+    /* Styling child boxes */
+    p {
+      color: whitesmoke;
+      background-color: black;
+      height: 200px;
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 16px;
+    }
+
+    /* Parent container */
+    div {
+      display: flex;
+
+      /* Default is row */
+      flex-direction: column;
+
+      /* Align items vertically (cross-axis) */
+      align-items: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <p>First</p>
+    <p>Second</p>
+    <p>Third</p>
+    <p>Fourth</p>
+  </div>
+
+</body>
+</html>
+
