@@ -18,3 +18,36 @@ Children = p tags
 
 
 display: flex applied to div
+
+
+
+🔹 Flexbox Axes Understanding
+Main Axis:
+→ Controlled by flex-direction
+→ If row → X-axis
+→ If column → Y-axis
+
+Cross Axis:
+→ Opposite direction of main axis
+
+
+🔹 justify-content
+-> Used to align items on the MAIN axis.
+
+Examples:
+justify-content: start;
+justify-content: center;
+justify-content: end;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+🔹 align-items
+-> Used to align items on the CROSS axis.
+
+Examples:
+align-items: start;
+align-items: center;
+align-items: end;
+
+
