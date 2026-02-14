@@ -1,0 +1,62 @@
+Syllabus Discussion :-
+
+1. Core Python                (  star pattern , nested loop ) 
+2. OOPS 
+3. Database ( MySQL & PostgreSQL OR PGadmin )
+=> how to create a table , 
+=> how to insert data in a table . 
+=> how to delete any row from a table. 
+=> how to update any data in a table.
+......................  
+
+=> DML, DDL , Primary key , candidate key , Foreign 
+
+
+4. Frontend 
+=> html , css 
+=> 8 Assignments 
+
+5. Bootstrap ( Css library ) 
+=> it's the combination html and css.
+
+6. javascript 
+7. React ( javascript library ) 
+
+
+## Backend
+=> Django ( Python Framework )
+=> how to setup a basic project in Django 
+=> how to connect frontend and backend . 
+=> how to coneect frontend , backend with database ( PostgreSQL ) 
+=> crate a CRUD operation project 
+=> CRUD ( create , read, update, Delete) 
+
+=> HOw to create admin Panel
+=> how to create superuser ( owner /admin/ superuser ) . 
+
+=>get method, post method, put method, patch methd, delete
+
+=> 6 Projects 
+
+
+=> APi 
+=> how to create api , read api , update api , delete api . 
+=> what is Swagger api .
+=> what is postman api .
+
+=> get method => data show 
+=> post method => data store 
+=> put => update, 
+=> patch => Partially updated
+
+
+Fast API ( python Library ) 
+
+## Database ( Tenants ):- Multitenancy concept 
+
+## Seeder run ( Sample data for database)
+## Crone Jobs 
+## send email message on Gmail application (SMTP)
+## 2 Step veryfication
+## how to integrate razorpay payment integration and stripe integration.
+## Resume Building Session.
