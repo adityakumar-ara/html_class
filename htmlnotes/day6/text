@@ -1,0 +1,20 @@
+What is Flexbox?
+📌 Definition
+-> Flexbox (Flexible Box Layout) is a CSS layout system
+   used to arrange elements in rows or columns.
+-> It makes alignment and spacing easier.
+
+
+🔹 Important Rules of Flexbox
+1. Flexbox works on the parent element.
+2. We apply: display: flex; to the parent.
+3. By default, flex-direction is row.
+
+** Basic Flexbox Example (Column Layout)
+Parent = div
+
+
+Children = p tags
+
+
+display: flex applied to div
