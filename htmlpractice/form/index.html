@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <label for="name">Name:-</label><br>
+            <input type="text" placeholder="Enter Your Name" required class="input"><br><br>
+            <label for="mobile number">Mobile Number:-</label><br>
+            <input type="number" placeholder="Enter YOur Mobile number" required class="input"><br><br>
+
+            <label for="state">Choose your state:-</label><br>
+            <select required class="input">
+                <option value="">--Please choose an option--</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select><br><br>
+
+            <label for="email">Email:-</label><br>
+            <input type="email" placeholder="Enter Your Email" required class="input"><br><br>
+            <label for="password">Password:-</label><br>
+            <input type="password" placeholder="Enter A strong passeord" required class="input"><br><br>
+            <label for="age">Date of birth:-</label><br>
+            <input type="date" placeholder="D/O/B" required class="input"><br><br>
+
+            <p>Gender:-</p>
+            <input type="radio" name="gender" id="male" value="Male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="Female" required>
+            <label for="female">Female</label><br><br>
+            <label for="address">Address:-</label><br>
+            <textarea name="address" rows="3" cols="30" required></textarea class="input"><br><br>
+            <label for="document">Uplode your picture:-</label><br>
+            <input type="file" placeholder="Uplode here" required><br><br>
+            <input type="checkbox" required>
+            <label for="">I'm agree all the term and conditions</label><br><br>
+            <button>submits the form.</button>
+        </form>
+    </div>
+</body>
+
+</html>

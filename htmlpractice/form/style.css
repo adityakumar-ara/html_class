@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background:rgb(241, 233, 233);
+    height: 100vh;
+    width: 100%;
+    
+}
+form{
+    border: 3px solid rgb(255, 143, 183);
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-top: 30px;
+}
+.input{
+    height: inherit;
+    width: 500px;
+    border: 3px solid rgb(215, 115, 115);
+}
+button{
+    background: rgb(85, 85, 184);
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    height: 30px;
+    width: 130px;
+border:2px solid rgb(215, 115, 115);
+border-radius: 10px;
+}
