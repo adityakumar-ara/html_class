@@ -1,0 +1,22 @@
+
+
+CSS Box Model
+Every HTML element follows the Box Model.
+
+📌 Box Model Structure
+1. Content
+2. Padding
+3. Border
+4. Margin
+
+
+📘 Definition
+Margin:
+Space outside the border.
+
+Padding:
+Space inside the border (around content).
+
+Border:
+Outline around the element.
+
