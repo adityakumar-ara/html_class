@@ -1,0 +1,47 @@
+<!-- :hover and :nth-child() -->
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Pseudo Class Example</title>
+
+ <style>
+   p {
+     border: 2px solid maroon;
+     height: 200px;
+     width: 200px;
+     text-align: center;
+     background-color: black;
+     color: whitesmoke;
+     font-size: 20px;
+   }
+
+   /* Hover effect */
+   p:hover {
+     background-color: yellow;
+     color: maroon;
+   }
+
+   /* Select third child */
+   p:nth-child(3) {
+     background-color: goldenrod;
+     color: black;
+   }
+
+   /* First child hover */
+   p:nth-child(1):hover {
+     background-color: green;
+   }
+
+ </style>
+</head>
+
+<body>
+ <p>First box</p>
+ <p>Second box</p>
+ <p>Third box</p>
+ <p>Fourth box</p>
+ <p>Fifth box</p>
+</body>
+</html>
+

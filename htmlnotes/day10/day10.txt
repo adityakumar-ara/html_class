@@ -1,0 +1,7 @@
+What is a Pseudo-Class?
+Definition
+A pseudo-class is used to define a special state of an element.
+
+Example:
+:hover
+:nth-child()
