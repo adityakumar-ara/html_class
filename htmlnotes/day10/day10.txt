@@ -5,3 +5,13 @@ A pseudo-class is used to define a special state of an element.
 Example:
 :hover
 :nth-child()
+
+
+
+What is a Pseudo-Element?
+Definition
+Pseudo-elements are used to style specific parts of an element.
+
+Example:
+::before
+::after
