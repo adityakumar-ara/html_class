@@ -1,0 +1,60 @@
+What is Position in CSS?
+Definition
+The position property specifies how an element
+is positioned in a webpage.
+
+Types of Position
+1. static  (Default)
+2. relative
+3. absolute
+4. fixed
+5. Sticky
+
+
+
+
+position: static (Default)
+Definition
+-> Static is the default position.
+->Elements follow normal document flow.
+->Top, left, right, bottom do NOT work.
+
+
+position: relative
+Definition
+-> Moves element relative to its original position.
+-> Top, left, right, bottom WILL work.
+-> Space remains reserved.
+
+
+position: absolute
+Definition
+-> Moves element relative to nearest positioned parent.
+-> If no positioned parent, it uses body.
+-> Space is NOT reserved.
+
+
+position: fixed
+Definition
+-> Element stays fixed on screen.
+-> It does NOT move when scrolling.
+
+
+position: sticky
+Definition
+-> Acts like relative until a scroll limit is reached.
+-> Then it becomes fixed.
+
+
+
+
+                                  Quick Comparison Table
+-------------|-----------------------------------------------------------------------------
+Position     |           Moves?       ||     Space Reserved?       |        Scroll Behavior
+static       |          ❌ No         |               ✅ Yes      |            Normal
+relative     |          ✅ Yes        |               ✅ Yes      |            Normal
+absolute     |          ✅ Yes        |               ❌ No       |            Normal
+fixed        |          ✅ Yes        |               ❌ No       |           Fixed on screen
+sticky       |          ✅ Yes        |               ✅ Yes      |          Sticks on scroll
+
+
