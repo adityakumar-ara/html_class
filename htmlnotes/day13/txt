@@ -1,0 +1,9 @@
+What is z-index?
+Definition
+ → z-index controls the stacking order of elements.
+ → Higher z-index value appears on top.
+ → Lower value appears behind.
+Important Rule:
+z-index works only on positioned elements.
+(position: relative, absolute, fixed, sticky)
+It does NOT work with: position: static;

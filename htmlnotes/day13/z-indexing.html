@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Z-Index Example</title>
+
+ <style>
+   .box1 {
+     height: 200px;
+     width: 300px;
+     background-color: red;
+     position: absolute;
+     left: 100px;
+     top: 100px;
+     z-index: 1;
+   }
+
+   .box2 {
+     height: 200px;
+     width: 300px;
+     background-color: blue;
+     position: absolute;
+     left: 150px;
+     top: 150px;
+     z-index: 2;
+   }
+ </style>
+</head>
+
+<body>
+
+ <div class="box1"></div>
+ <div class="box2"></div>
+
+</body>
+</html>
+
+<!-- What Happens Here?
+→ Blue box has z-index: 2
+→ Red box has z-index: 1
+→ Blue appears on top
+Because 2 > 1 -->
