@@ -7,3 +7,8 @@ Important Rule:
 z-index works only on positioned elements.
 (position: relative, absolute, fixed, sticky)
 It does NOT work with: position: static;
+
+
+Important Rule
+Higher z-index → Comes Forward
+Lower z-index → Goes Back
