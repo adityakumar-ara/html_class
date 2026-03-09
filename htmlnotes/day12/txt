@@ -30,6 +30,7 @@ Difference: Relative vs Sticky
 Relative:
  → Always moves from original position
  → Does not react to scroll
+ 
 Sticky:
  → Acts normal initially
  → Sticks when scroll limit reached

@@ -1,0 +1,46 @@
+Topics Covered:
+  .> Media Query
+  .> display: grid
+
+  
+Media Query
+Definition
+-> A Media Query is used to make a website responsive.
+ It applies CSS rules based on screen size or device type.
+It is mainly used for mobile-friendly design.
+
+
+Basic Syntax
+@media (max-width: 600px) {
+ /* CSS rules here */
+}
+
+Meaning:
+If the screen width is 600px or less, apply these styles.
+
+display: grid
+Definition
+CSS Grid is a two-dimensional layout system.
+ It allows you to arrange elements in rows and columns.
+Grid works on the parent element.
+How to Activate Grid
+.container {
+ display: grid;
+}
+
+--->>Defining Columns
+Fixed Width Columns
+grid-template-columns: 200px 200px 200px;
+
+Creates three columns with fixed width.
+
+Using Fraction (fr)
+grid-template-columns: 1fr 2fr 1fr;
+
+fr means “fraction of available space”.
+2fr takes more space than 1fr.
+
+Using repeat()
+grid-template-columns: repeat(4, 1fr);
+
+Creates four equal columns.
