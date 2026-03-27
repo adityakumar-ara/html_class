@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .box {
+      border: 3px solid red;
+      height: 100px;
+      width: 300px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 300px 400px 100px;
+      grid-template-columns: 1fr 5fr 3fr;
+      grid-template-columns: 2fr auto 4fr;
+      
+      grid-template-columns: repeat(4, 1fr);
+
+      /* gap => it is applied between rows and columns */
+      gap: 10px;  
+      row-gap: 20px;
+      column-gap: 50px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+      <div class="box">Box 4</div>
+      <div class="box">Box 5</div>
+      <div class="box">Box 6</div>
+      <div class="box">Box 7</div>
+      <div class="box">Box 8</div>
+      <div class="box">Box 9</div>
+      <div class="box">Box 10</div>
+      <div class="box">Box 11</div>
+      <div class="box">Box 12</div>
+      <div class="box">Box 13</div>
+      <div class="box">Box 14</div>
+      <div class="box">Box 15</div>
+      <div class="box">Box 16</div>
+    </div>
+  </body>
+</html>
+
+<!-- Topic : DISPLAY: GRID -->
+<!-- /* DISPLAY : GRID => it is just like flexbox and it is applied on Parent tag. */ -->
